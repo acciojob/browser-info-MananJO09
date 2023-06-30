@@ -1,7 +1,7 @@
 //your JS code here. If required.
  function displayBrowserInfo() {
 		// Get the browser name and version
-	var browserName = navigator.appName;
+	var browserName = navigator.appCodeName;
 	var version = navigator.appVersion;
 
 	// Create the message
