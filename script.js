@@ -1,8 +1,8 @@
 //your JS code here. If required.
  function displayBrowserInfo() {
 		// Get the browser name and version
-	var browserName = navigator.userAgent;
-	var version = parseFloat(navigator.appVersion);
+	var browserName = navigator.appName;
+	var version = navigator.appVersion;
 
 	// Create the message
 	var message = "You are using " + browserName +" version "+version; ;
@@ -11,3 +11,5 @@
 	var browserInfoElement = document.getElementById("browser-info");
 	browserInfoElement.textContent = message;
  }
+//You are using Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
+//(KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 version 5
