@@ -7,5 +7,5 @@
 
 	// Display the message on the page
 	var browserInfoElement = document.getElementById("browser-info");
-	browserInfoElement.textContent = message;
+	browserInfoElement.innerHTML = message;
  
