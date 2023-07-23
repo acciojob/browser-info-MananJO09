@@ -1,11 +1,11 @@
 // Get the browser name and version
-	var browserName = navigator.appName;
-	var version = navigator.appVersion;
+var browserName = navigator.appName;
+var version = navigator.appVersion;
 
-	// Create the message
-	var message = "You are using " + browserName +" version "+version; ;
+// Create the message
+var message = "You are using " + browserName;
 
-	// Display the message on the page
-	var browserInfoElement = document.getElementById("browser-info");
-	browserInfoElement.innerHTML = message;
+// Display the message on the page
+var browserInfoElement = document.getElementById("browser-info");
+browserInfoElement.innerHTML = message;
  
